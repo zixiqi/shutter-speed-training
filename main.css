@@ -1,0 +1,86 @@
+body {
+    padding-top: 70px;
+	padding-left:70px; 
+	padding-right:70px;
+
+}
+
+#mynav {
+	color:white;
+	font-weight: strong;
+}
+
+.navbar-brand {
+	color:white;
+}
+
+.jumbotron {
+	background-image: url('header.jpg');
+	background-size: 100%;
+}
+
+#myheadertext {
+     color: white;
+     text-shadow: 3px 3px 3px grey;
+}
+
+#myheadertext2 {
+     color: white;
+     text-align: right;
+     text-shadow: 3px 3px 3px grey;
+}
+
+.goal {
+	text-align: center;
+}
+
+a:link{
+	color:black;
+	text-decoration: none;
+}
+
+#level1, #level2, #level3{
+	padding-top: 50px;}
+
+li {
+	font-weight: strong;
+} //not work, why?
+
+.row {
+
+}
+.gallery {
+     height: 300px;
+     width: 400px;
+     overflow: hidden;
+     margin-top:20px;
+     margin-left:90px;
+}
+
+.caption {
+	display:none;
+	position:absolute;
+	top:30;
+	left:105;
+	background: url(trans-black-50.png);
+	width:70%;
+	height:88%;
+}
+
+.caption h4, .caption p {
+	color:#fff;
+	margin:20px;
+}
+
+.caption h3 {
+	margin:20px 20px 10px;
+}
+
+.caption p{
+	margin:0 20px 15px;
+}
+
+.final img{
+	height:180px;
+	width:100%;
+}
